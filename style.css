@@ -16,4 +16,251 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5; /* mezera mezi radky */
+}
 
+a {
+    color: #3498db;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #2b80b9;
+}
+/* maximalni sirka sloupce uprostred stranky */
+.wrap {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.uvod {
+    background-color: #f5f5f5;
+    padding: 50px 0 0 0;
+}
+
+.hlavicka {
+    margin:  0 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 130px;
+}
+
+.hlavicka-vpravo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    margin: 0 30px 0 0;
+    padding: 0;
+    font-size: 13px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #959595;
+}
+
+.menu a:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.tlacitko {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.tlacitko-primarni {
+    color: white;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+}
+
+.tlacitko-primarni:hover,
+.tlacitko-primarni:focus,
+.tlacitko-primarni:active {
+    color: white;
+    background-color: #2b80b9;
+    border-color: #2b80b9;
+}
+
+.tlacitko-sekundarni {
+    color: #333333;
+    background: transparent;
+    border: 1px solid #333333;
+}
+
+.tlacitko-sekundarni:hover,
+.tlacitko-sekundarni:focus,
+.tlacitko-sekundarni:active {
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+
+.tlacitko-velke {
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+.banner {
+    display: flex;
+    min-height: 600px;
+    }
+
+.banner-text {
+    max-width: 420px;
+    padding-top: 40px;
+    margin-right: -150px;
+}
+
+.banner h1 {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.upoutavka {
+    margin: 30px 0;
+    font-size: 18px;
+    color: #a5a5a5;
+}
+
+.minitext {
+    font-size: 13px;
+}
+
+.banner-foto {
+    flex: 1;
+    text-align: right;
+    align-self: flex-end; 
+}
+
+.banner-foto img {
+    display: block;
+    width: 100%;
+}
+
+.sekce {
+    padding: 50px 0;
+}
+
+.sekce-bila {
+    background-color: white;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.sekce-seda {
+    background-color: #f5f5f5;
+}
+
+.sekce-cerna {
+    background-color: #252525;
+    color: white;
+}
+
+.vlastnosti {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+}
+
+.vlastnost {
+    flex: 1 1 calc((100% / 2) - 30px);
+    min-height: 110px;
+    padding: 30px 30px 30px 110px;
+    margin-bottom: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 30px 30px;
+}
+
+.vlastnost:nth-child(2n+1) {
+    margin-right: 30px;
+}
+
+.vlastnost h2 {
+    margin: 0 0 10px 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.vlastnost p {
+    margin: 10px 0 20px 0;
+    color: #666666;
+}
+
+.vlastnost a {
+    font-size: 13px;
+}
+
+
+.ikona-kufrik {
+    background-image: url('images/kufrik.svg');
+}
+.ikona-slunce {
+    background-image: url('images/slunce.svg');
+}
+.ikona-srdce {
+    background-image: url('images/srdce.svg');
+}
+.ikona-zvuk {
+    background-image: url('images/zvuk.svg');
+}
+
+.paticka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paticka-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.paticka-menu li {
+    margin-right: 20px;
+}
+
+.paticka-menu a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #959595;
+ }
